@@ -1,0 +1,25 @@
+Subiectul 4
+a) [5p] Creați un nou repository Git local numit website. Creați un commit nou cu un fișier README.md care să
+conțină numele vostru.
+b) [5p] Creați un branch nou numit design și adăugați un fișier style.css cu conținutul body {background-color:
+white;}. Realizați un commit cu mesajul Add initial design care să conțină style.css.
+c) [5p] Reveniți pe branch-ul main și extrageți commit-ul făcut la punctul b). Branch-ul main va conține acum 2
+commit-uri, cel de la punctul a) și cel de la punctul b).
+d) [5p] Eliminați ultimul commit.
+Subiectul 5
+a) [5p] Creați un script backup.sh care comprimă directorul fișierle din ierarhia /var/log pentru care utilizatorul
+are permisiuni de citire și salvează arhiva în /backups.
+b) [5p] Extindeți scriptul pentru a afișa la standard output dimensiunea arhivei creată și spațiul liber de pe sistem.
+c) [5p] Faceți modificările necesare pentru a putea rula scriptul de oriunde din sistem.
+d) [5p] Configurați scriptul să ruleze săptămânal folosind cron.
+Subiectul 6
+a) [5p] Creați un script numit monitor.sh care primește un nume de proces ca argument și verifică dacă procesul este
+în execuție. Dacă procesul rulează, scriptul trebuie să afișeze PID-ul acestuia. Dacă există mai multe procese cu
+același nume, se vor afișa toate PID-urile acestora. Dacă nu, afișează un mesaj de eroare.
+b) [5p] Creați un script numit sysinfo.sh care afișează următoarele informații despre sistem: utilizatorul curent,
+timpul de pornire al sistemului, cantitatea de memorie liberă, și spațiul liber pe disc pentru fiecare partiție.
+c) [5p] Extindeți scriptul de la b astfel încât, dacă primește argumentul --kernel va afișa versiunea kernelului de
+pe sistem.
+d) [5p] Extindeți scriptul de la punctul b, astfel încât, dacă se primește argumentul --alert X, cu X între 0 și
+100, se va afișa un mesaj dacă disk-ul este utilizat mai mult de X%. E.g., ./sysinfo.sh --alert 30 va afișa un
+mesaj sugestiv dacă diskul este ocupat mai mult de 30%.
